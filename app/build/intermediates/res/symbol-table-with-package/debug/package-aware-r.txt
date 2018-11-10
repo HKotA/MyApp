@@ -1116,6 +1116,7 @@ drawable ndcart
 drawable ndgooglemaps
 drawable ndhistory
 drawable ndmenu
+drawable ndsend
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1261,6 +1262,9 @@ id id_nav_menu_1
 id id_nav_menu_2
 id id_nav_menu_3
 id id_nav_menu_4
+id id_nav_menu_5
+id id_nd_menu_five_send
+id id_nd_menu_five_text
 id id_nd_menu_four_map
 id id_nd_menu_one_recyclerview
 id id_nd_menu_three_recyclerview
@@ -1482,6 +1486,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout dialog_for_order
+layout fragment_navigation_drawer__menu__five
 layout fragment_navigation_drawer__menu__four
 layout fragment_navigation_drawer__menu__one
 layout fragment_navigation_drawer__menu__three
@@ -1528,6 +1533,7 @@ string Name
 string Password
 string Phone
 string PizzaPrice
+string Send
 string SignIn
 string SignUp
 string Vul
@@ -1619,6 +1625,7 @@ string nd_cart
 string nd_history
 string nd_map
 string nd_menu
+string nd_send
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

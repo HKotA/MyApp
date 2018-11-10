@@ -22,5 +22,10 @@
             android:icon="@drawable/ndgooglemaps"
             android:title="@string/nd_map"/>
 
+        <item
+            android:id="@+id/id_nav_menu_5"
+            android:icon="@drawable/ndsend"
+            android:title="@string/nd_send"/>
+
     </group>
 </menu>

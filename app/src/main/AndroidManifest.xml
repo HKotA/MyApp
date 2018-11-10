@@ -25,7 +25,8 @@
         </activity>
         <activity android:name=".SignIn" />
         <activity android:name=".SignUp" />
-        <activity android:name=".Menu" />
+        <activity android:name=".Menu"
+            android:windowSoftInputMode="adjustResize"></activity>
         <activity android:name=".CategoryOne" />
         <activity android:name=".DetailItem">
             <meta-data

@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -39,6 +40,7 @@ public class NavigationDrawer_Menu_Four extends Fragment implements OnMapReadyCa
                 .findFragmentById(R.id.id_nd_menu_four_map);
         mapFragment.getMapAsync(this);
 
+
         return view;
     }
 
@@ -48,7 +50,7 @@ public class NavigationDrawer_Menu_Four extends Fragment implements OnMapReadyCa
 
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(49.55122241, 25.60106704);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        mMap.addMarker(new MarkerOptions().position(sydney).title("McDonald’s"));
 
         float zoomLevel = 15.0f;
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, zoomLevel));

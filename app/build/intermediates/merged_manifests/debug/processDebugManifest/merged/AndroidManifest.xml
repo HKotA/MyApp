@@ -48,7 +48,9 @@
         </activity>
         <activity android:name="com.example.gener.mycafeapp.SignIn" />
         <activity android:name="com.example.gener.mycafeapp.SignUp" />
-        <activity android:name="com.example.gener.mycafeapp.Menu" />
+        <activity
+            android:name="com.example.gener.mycafeapp.Menu"
+            android:windowSoftInputMode="adjustResize" />
         <activity android:name="com.example.gener.mycafeapp.CategoryOne" />
         <activity android:name="com.example.gener.mycafeapp.DetailItem" >
             <meta-data

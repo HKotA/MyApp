@@ -28,6 +28,7 @@
     <string name="nd_cart">Корзина</string>
     <string name="nd_history">Історія</string>
     <string name="nd_map">Місцезнаходження</string>
+    <string name="nd_send">Відгук</string>
 
     <string name="totalPrice">Загальна ціна</string>
     <string name="MakeAnOrder">Зробити замовлення</string>
@@ -48,5 +49,7 @@
 
     <string name="google_maps_api">AIzaSyDpx6jBoKx2dnd0trPrnHhzrBSh4LFcR_Y</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="Send">Надіслати відгук</string>
 
 </resources>

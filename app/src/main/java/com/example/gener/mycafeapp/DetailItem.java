@@ -87,7 +87,7 @@ public class DetailItem extends AppCompatActivity {
                 String Number = elegantNumberButton.getNumber();
                 int number = Integer.parseInt(String.valueOf(Number));
 
-                if (number == 0){
+                if (number == 0) {
                     elegantNumberButton.setNumber("1");
                     String newNumber = elegantNumberButton.getNumber();
                     int amount = Integer.parseInt(String.valueOf(newNumber));
@@ -95,7 +95,7 @@ public class DetailItem extends AppCompatActivity {
                     int full = one * amount;
                     pr.setText(String.valueOf(full) + currency);
                     fullprice.setText(String.valueOf(full));
-                }else if (number >= 1){
+                } else if (number >= 1) {
                     int one = Integer.parseInt(oneitem.getText().toString());
                     int full = one * number;
                     pr.setText(String.valueOf(full) + currency);
@@ -103,7 +103,6 @@ public class DetailItem extends AppCompatActivity {
                 }
             }
         });
-
 
 
         floatingActionButton = findViewById(R.id.id_detail_item_fab);

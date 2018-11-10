@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Nov 09 17:10:34 EET 2018
+#Sat Nov 10 12:39:00 EET 2018
 1.base=/home/anduin/Стільниця/MyCafeApp/app/build/intermediates/transforms/dexMerger/debug/0
 2.path=fonts/12231.ttf
 0.baseType=DIRECTORY

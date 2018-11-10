@@ -95,6 +95,9 @@ public class Menu extends AppCompatActivity implements NavigationView.OnNavigati
             case R.id.id_nav_menu_4:
                 fragment = new NavigationDrawer_Menu_Four();
                 break;
+            case R.id.id_nav_menu_5:
+                fragment = new NavigationDrawer_Menu_Five();
+                break;
             default:
                 fragment = new NavigationDrawer_Menu_One();
         }
